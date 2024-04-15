@@ -7,7 +7,43 @@ A collection of cool hidden and not so hidden features of Git and GitHub. This c
 
 GitHub Cheat Sheet is sponsored by [Snapshot: create interactive professional-quality product photos using AI](https://www.snapshotapp.io/)
 
+## INSTALLATION & GUIS
+
+With platform specific installers for Git, GitHub also provides the ease of staying up-to-date with the latest releases of the command line tool while providing a graphical user interface for day-to-day interaction, review, and repository synchronization.
+
+## GitHub for Windows 
+- [https://windows.github.com]
+
+## GitHub for Mac 
+- [https://mac.github.com]
+
+For Linux and Solaris platforms, the latest release is available on the official Git web site. 
+
+Git for All Platforms
+- [http://git-scm.com]
+
+## SETUP 
+- Configuring user information used across all local repositories
+# git config --global user.name “[firstname lastname]” 
+- set a name that is identifiable for credit when review version history
+  
+# git config --global user.email “[valid-email]” 
+- set an email address that will be associated with each history marker
+
+# git config --global color.ui 
+
+- auto set automatic command line coloring for Git for easy reviewing
+
 ## Table of Contents
+- [GitHub Cheat Sheet ](#github-cheat-sheet-)
+  - [INSTALLATION \& GUIS](#installation--guis)
+  - [GitHub for Windows](#github-for-windows)
+  - [GitHub for Mac](#github-for-mac)
+  - [SETUP](#setup)
+- [git config --global user.name “\[firstname lastname\]”](#git-config---global-username-firstname-lastname)
+- [git config --global user.email “\[valid-email\]”](#git-config---global-useremail-valid-email)
+- [git config --global color.ui](#git-config---global-colorui)
+  - [Table of Contents](#table-of-contents)
   - [GitHub](#github)
     - [Ignore Whitespace](#ignore-whitespace)
     - [Adjust Tab Space](#adjust-tab-space)
@@ -49,9 +85,9 @@ GitHub Cheat Sheet is sponsored by [Snapshot: create interactive professional-qu
       - [Rendering and diffing images](#rendering-and-diffing-images)
     - [Hub](#hub)
     - [Contribution Guidelines](#contribution-guidelines)
-      - [CONTRIBUTING file](#contributing-file)
-      - [ISSUE_TEMPLATE file](#issue_template-file)
-      - [PULL_REQUEST_TEMPLATE file](#pull_request_template-file)
+      - [CONTRIBUTING File](#contributing-file)
+      - [ISSUE\_TEMPLATE file](#issue_template-file)
+      - [PULL\_REQUEST\_TEMPLATE file](#pull_request_template-file)
     - [Octicons](#octicons)
     - [GitHub Student Developer Pack](#github-student-developer-pack)
     - [GitHub Resources](#github-resources)
